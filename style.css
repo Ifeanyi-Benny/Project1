@@ -18,14 +18,21 @@ ul{
    margin: 5px;
    padding-right: 30px;
    font-size: 20px;
+   padding-top: 10px;
 }
-ul li{
+ul li a{
     font-family: 'Roboto', sans-serif;
     margin: 0 25px;
     padding-top: 5px;
     color: hsla(0, 0%, 29%, 1);
     font-size: 1rem;
     line-height: 1.6;
+    text-decoration: none;
+}
+
+ul li a:hover{
+   color: hsla(72, 90%, 40%, 1);
+   transition: 0.5s;
 }
 li img {
     margin: 0;
@@ -122,3 +129,32 @@ margin: 26px 80px 56px 80px;
   padding-bottom: 50px;
   
 } 
+.gallery{
+    background-color: hsla(0, 0%, 19%, 1);
+    
+}
+.gallerytext h1{
+    padding-top: 50px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: hsla(0, 0%, 100%, 1);
+    text-align: center;
+    font-size: 2rem;
+}
+.gallerytext p{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: hsla(0, 0%, 100%, 1);
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+.imagecenter{
+    display: flex;
+   justify-content: center;
+}
+.imagecenter img{
+    width: 370px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
