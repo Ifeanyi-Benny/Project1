@@ -158,3 +158,34 @@ margin: 26px 80px 56px 80px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.bdtext{
+    background-color: hsla(0, 0%, 89%, 1);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 160px;
+}
+.bdtext p{
+    
+    color: #4a4a4a;
+    font-style: italic;
+    line-height: 1.1;
+    margin-right: 30px;
+    font-size: 1.8rem;
+   
+}
+
+footer{
+    background-color: hsla(0, 0%, 29%, 1);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+}
+footer p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+padding: 20px;
+}
