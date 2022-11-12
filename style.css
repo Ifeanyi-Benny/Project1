@@ -260,6 +260,7 @@ margin: 26px 80px 56px 80px;
     font-size: 1rem;
     position: relative;
    display: block;
+   border-radius: 3px;
 }
 
 .imagecenter img{
@@ -277,4 +278,164 @@ margin: 26px 80px 56px 80px;
    
 }
 
+}
+
+@media screen and (max-width:767px){
+    ul li a{
+        font-family: 'Roboto', sans-serif;
+        margin: 0 15px;
+        padding-top: 5px;
+        color: hsla(0, 0%, 29%, 1);
+        font-size: 1rem;
+        line-height: 1.6;
+        text-decoration: none;
+    }
+
+    nav .btlink{
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        margin-top: 13px;
+        margin-right: 22px;
+        padding: 3px 3px;
+        margin-bottom: 14px;
+        background-color: hsla(72, 90%, 40%, 1);
+        color: hsla(109, 100%, 100%, 1);
+        justify-items: center;
+        font-size: 1rem;
+        position: relative;
+       display: block;
+       border-radius: 2px;
+    }
+
+    .feature{
+        display: block;
+        background-color:rgb(235, 235, 235);
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 25px;
+    
+    }
+    
+    .feature img{
+        width: 75%;
+        height: 40%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        padding-top: 52px;
+    
+    
+    } 
+    .feature .feature1{
+        background-color: aliceblue;
+        width: 660px;
+    } 
+    
+    .feature .feature2{
+        background-color: aliceblue;
+        width: 660px;
+    } 
+
+    .card{
+        background-color: rgba(157, 194, 10, 0);
+        width: 650px;
+        position: relative;
+        top: 240px;
+        left: 5px;
+        
+    }
+    .card .cardtext1{
+        font-style: italic;
+        text-align: center;
+        padding-top: 52px;
+       color: hsla(360, 100%, 100%, 1);
+       
+    }
+    .card .cardtext2{
+        font-family: 'Rubik', sans-serif;
+       font-size: 3rem;
+       line-height: 1.4;
+       text-align: center;
+       margin-top: 12px;
+       color: hsla(360, 100%, 100%, 1);
+     
+    }
+    
+    .card .cardtext3{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.1rem;
+        line-height: 1.4;
+        text-align: center;
+        color: hsla(360, 100%, 100%, 1);
+        display: none;
+        
+     
+    }
+    .card .cardtext4{
+        font-family: 'Roboto', sans-serif;
+       font-size: 1rem;
+       line-height: 1.4;
+    margin: 26px 80px 56px 80px;
+       padding: 10px;
+       text-align: center;
+       padding-bottom: 50px;
+       color: hsla(360, 100%, 100%, 1);
+       display: none;
+    }
+    
+    .imagecenter img{
+        width: 150px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .bdtext p{
+        
+        color: #4a4a4a;
+        font-style: italic;
+        line-height: 1.1;
+        margin-right: 4px;
+        margin-left: 30px;
+        font-size: 1rem;
+       
+    }
+
+    .gallerytext h1{
+        padding-top: 50px;
+        font-size: 1rem;
+        font-family: 'Roboto', sans-serif;
+        color: hsla(0, 0%, 100%, 1);
+        text-align: center;
+        font-size: 1.8rem;
+    }
+    .gallerytext p{
+        font-size: 1rem;
+        font-family: 'Roboto', sans-serif;
+        color: hsla(0, 0%, 100%, 1);
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .bdtext{
+        background-color: hsla(0, 0%, 89%, 1);
+        color: aliceblue;
+        display: block;
+       height: 130px;
+       padding-top: 25px;
+    }
+    .bdtext p{
+    
+        color: #4a4a4a;
+        font-style: italic;
+        line-height: 1.1;
+        margin-right: 30px;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 20px;
+       
+    }
+    .bdtext img{
+        display: block;
+        margin: 0 auto;
+    }
 }
